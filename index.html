@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
+	<link rel="stylesheet" type="text/css" href="styles/map.css">
+	<script type="text/javascript" src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<script type="text/javascript" src="scripts/map.js"></script>
+</head>
+<body onload="loadMap();">
+    <center><header>
+        <h1>
+            Hortolândia
+        </h1>
+        <h2>
+            Praças e centros esportivos públicos
+        </h2>
+    </header></center>
+	<center><div id="mapid" onclick="getLocation();"></div></center>
+	<br>
+    <form>
+        <div align="center">
+        <label>Latitude: </label>
+        <input type="text" id="markerY">
+        <label>Longitude: </label>
+        <input type="text" id="markerX">
+        <label>Nome: </label>
+        <input type="text" id="nome">
+        <input type="button" name="Add" value="Adicionar" onclick="addMarker();">
+        </div>
+    </form>
+    <div align="right">
+        <a href="sobreNos.html">Sobre nós</a> |
+        <a href="faleConosco.html">Fale conosco</a>    
+    </div>
+</body>
+</html>

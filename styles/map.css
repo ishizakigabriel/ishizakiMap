@@ -1,0 +1,26 @@
+.mapspot
+{
+	width: 200px;
+	height: 150px;	
+}
+
+#mapid
+{
+	width:800px;
+	height:600px;
+}
+
+#links
+{
+	margin-bottom: 5px;
+}
+
+body
+{
+	font-family:Arial;
+}
+
+p
+{
+	text-align: justify;
+}

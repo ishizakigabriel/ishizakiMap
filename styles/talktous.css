@@ -1,0 +1,12 @@
+.campo
+{
+	position: absolute;
+	left: 100px;
+}
+
+#enviar
+{
+	position: relative;
+	left: 350px;
+	top: 50px;
+}
